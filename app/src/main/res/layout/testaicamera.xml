@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212025"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_florist_24"
+        android:background="@color/black" >
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/imageText"
+        android:text="꽃의 이름"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btn_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="60dp"
+
+            android:background="@drawable/gallery1" />
+
+        <Button
+            android:id="@+id/gallay"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/camera1" />
+
+        <Button
+            android:id="@+id/savephoto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/search1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:text="갤러리"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:text="카메라"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="분석"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

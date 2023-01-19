@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/androidwork/test000111/app/src/main/res/drawable/ic_launcher_background.xml" value="0.222" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/drawable/layout_background3.xml" value="0.317" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/drawable/layout_background4.xml" value="0.317" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/drawable/layout_background5.xml" value="0.317" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/drawable/layout_background6.xml" value="0.317" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/activity_camera.xml" value="0.3066123188405797" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/activity_main.xml" value="0.55" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/activity_main1.xml" value="0.3333333333333333" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/activity_pot_add.xml" value="0.40572916666666664" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/activity_potedit.xml" value="0.3109375" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/activity_register.xml" value="0.40572916666666664" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/activity_splash.xml" value="0.40572916666666664" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/activity_user_dashboard.xml" value="0.55" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/btnview.xml" value="0.40572916666666664" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/fragment_userview.xml" value="0.55" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/frame_1.xml" value="0.34010416666666665" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/frame_2.xml" value="0.34010416666666665" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/frame_3.xml" value="0.34010416666666665" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/frame_4.xml" value="0.34010416666666665" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/readinfor.xml" value="0.32608695652173914" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/row_listview.xml" value="0.3066123188405797" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/row_plant.xml" value="0.40572916666666664" />
+        <entry key="..\:/androidwork/test000111/app/src/main/res/layout/testaicamera.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

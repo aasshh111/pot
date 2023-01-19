@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test000111">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/plant"
+        android:label="내 손안에 새싹"
+        android:roundIcon="@drawable/plant"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test000111">
+
+        <activity
+            android:name="com.example.test000111.PotEditActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.test000111.PotAddActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.test000111.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.test000111.LoginActivity"
+            android:exported="true" />
+<!--        <activity-->
+<!--            android:name="com.example.test000111.MainActivity"-->
+<!--            android:exported="true" />-->
+        <activity
+            android:name="com.example.test000111.Test1"
+            android:exported="true" />
+        <activity
+            android:name="com.example.test000111.Listview1"
+            android:exported="true" />
+            <activity
+                android:name="com.example.test000111.MainActivity"
+                android:exported="true" >
+<!--        <activity-->
+<!--            android:name="com.example.test000111.SplashActivity"-->
+<!--            android:exported="true">-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212025"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_background2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_margin="10dp"
+                android:text="Home"
+                android:textColor="#43B05C"
+                android:textSize="27dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_background4">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/layout_background3"
+                android:gravity="center|start"
+                android:hint="    식물 이름 검색"
+                android:id="@+id/editSearch"
+                android:textColor="#ffffff"
+                android:textColorHint="#bdbebd"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_background4">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#999999"
+                android:dividerHeight="1dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_background5"
+            android:orientation="vertical">
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewpager"
+                android:layout_gravity="center"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:layout_marginLeft="-145dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="10dp"/>
+
+<!--            <ImageView-->
+<!--                android:layout_width="380dp"-->
+<!--                android:layout_height="213dp"-->
+<!--                android:src="@drawable/baaaaaa"/>-->
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_background5"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="213dp"
+                
+                android:layout_weight="1"
+                android:src="@drawable/first" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_background5"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="213dp"
+
+                android:layout_weight="1"
+                android:src="@drawable/second1111" />
+
+
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
